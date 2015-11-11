@@ -1,0 +1,28 @@
+{
+  "name": "postr",
+  "version": "1.0.0",
+  "description": "Just to post something",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makarukudo2015/postr.git"
+  },
+  "keywords": [
+    "post",
+    "create",
+    "a",
+    "post"
+  ],
+  "author": "Michael Brucal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makarukudo2015/postr/issues"
+  },
+  "homepage": "https://github.com/makarukudo2015/postr#readme",
+  "dependencies": {
+    "restify": "^4.0.3"
+  }
+}

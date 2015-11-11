@@ -9,7 +9,7 @@ server.use(restify.queryParser());
 server.use(restify.bodyParser());
 
 server.get('/echo/:name', function (req, res, next) {
-    res.send("Test" + req.params.name);
+    res.send({status: true});
     return next();
 });
 
